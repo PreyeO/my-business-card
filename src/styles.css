@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+  min-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.main-container{
+  max-width: 100%;
+  background-color: white;
+  padding-top:40px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+}
+.mini-container{
+  width: 317px;
+  text-align: center;
+  justify-content: center;
+  
+}
+.mini-container h2{
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.mini-container h4{
+  color: coral;
+  padding-top: 10px;
+}
+
+.main-container img{
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+  
+}
+button{
+  width: 110px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button a{
+  color: black;
+}
+.contact{
+  display: flex;
+  gap :20px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+}
+span button{
+  background-color: #297FE5;
+  color: white;
+}
+span a{
+  color: white;
+}
+.about{
+  padding-top: 40px;
+  width: 247px;
+  text-align: left;
+  margin-left: 30px;
+}
+.about p{
+width: 250px;
+word-spacing: 1px;
+padding-top: 10px;
+letter-spacing: 1px;
+
+}
+.skills{
+  padding-top: 40px;
+  width: 247px;
+  text-align: left;
+  border: 1px solid black;
+  margin-left: 30px;
+}
+.skills p{
+  width: 250px;
+word-spacing: 1px;
+padding-top: 10px;
+letter-spacing: 1px
+}
+.main h3{
+  letter-spacing: 1px;
+}
+
+.socials{
+height:54px;
+width:317px;
+margin-top: 20px;
+background-color:#D5D4D8;
+padding-top: 20px;
+display: flex;
+justify-content: center;
+}
+
+.socials a{
+  color: white;
+}
+
+
